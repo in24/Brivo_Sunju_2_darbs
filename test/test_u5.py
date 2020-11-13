@@ -1,5 +1,5 @@
 import pytest
-from src.u5 import saknes
+from src.u5 import vienadojums
 
 """
 Funkcija akceptē trīs argumentu - kvadrātvienādojuma 
@@ -15,6 +15,11 @@ Atgriež:
 """
 
 def nav_saknes():
-    assert saknes(2, -6, 8) == None
+    assert vienadojums(2, -6, 8) == [None]
+
+def viena_sakne():
+    assert vienadojums(1, 6, 9) == [-3]
+
+
 
 
