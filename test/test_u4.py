@@ -7,13 +7,13 @@ Argumenti:
 Atgriež:
     int vai float -- temperatūra Celsija grādos"""
 import pytest
-from src.u4 import f_nosaukums
+from src.u4 celsijs
 
 def test_poz():
-    assert f_nosaukums(59)==15
+    assert celsijs(59)==15
 
 def test_poz():
-    assert f_nosaukums(38.3)==3.5
+    assert celsijs(38.3)==3.5
 
 def test_neg():
-    assert f_nosaukums(-500)==-273.15
+    assert celsijs(-500)==-273.15
