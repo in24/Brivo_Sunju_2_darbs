@@ -9,7 +9,7 @@ Atgriež:
     int vai float -- rezultāts"""
 
 def laukums(h,p):
-    if h==0 or p==0:
+    if h<=0 or p<=0:
         lauk=0
     else:
         lauk=(h*p)/2
