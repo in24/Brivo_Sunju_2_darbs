@@ -9,6 +9,8 @@ Argumenti:
 Atgriež:
     int vai float -- temperatūra Kelvina grādos
 """
-def kelvins(C):
-    K = C + 273.15
-    return K
+def kelvins(c):    
+    k = c + 273.15
+    if k < 0:
+        k = 0
+    return k
