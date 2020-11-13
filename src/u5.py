@@ -11,7 +11,4 @@ def vienadojums(a, b, c):
         x = -b/(2*a)
         return [x]
     else:
-        return None
-
-
-print(vienadojums(5, 16, 3))
+        return [None]
