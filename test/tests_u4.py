@@ -12,5 +12,8 @@ from src.u4 import f_nosaukums
 def test_poz():
     assert f_nosaukums(59)==15
 
+def test_poz():
+    assert f_nosaukums(38.3)==3.5
+
 def test_neg():
     assert f_nosaukums(-500)==-273.15
