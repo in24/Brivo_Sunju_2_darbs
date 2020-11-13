@@ -1,17 +1,19 @@
-"""Funkcija akceptē divus argumentus - trisjtūra augstumu un pamatu,
-aprēķina trijstūra laukumu un atgriež to. Ja kāds no argumentiem ir mazāks vai vienāds ar 0, atgriež 0.
-Formula trijstūra laukuma aprēķināšanai ir augstums*pamats/2
+"""
+Funkcija akceptē divus argumentus - skaiļus a un b,
+aprēķina to dalījumu un atgriež to. Ja skaiļus dalīt nedrīkst,
+atgriež 0.
 
 Argumenti:
-    h {int vai float} -- trijstūra augstums
-    p {int vai float} -- trijstūra pamats
+    a {int vai float} -- pirmais skaitlis
+    b {int vai float} -- otrais skaitlis
 Atgriež:
-    int vai float -- rezultāts"""
+    int vai float -- rezultāts
+"""
 
-def laukums(h,p):
-    if h<=0 or p<=0:
-        lauk=0
+def dalijums(a,b):
+    if b == 0:
+        dal = 0
     else:
-        lauk=(h*p)/2
-    return lauk
+        dal = a / b
+    return dal
 

@@ -7,7 +7,7 @@ def nav_saknes():
 def viena_sakne():
     assert vienadojums(1, 6, 9) == [-3]
 
-def viena_sakne():
+def divas_saknes():
     assert vienadojums(1,-4,3) == [3, 1]
 
 
