@@ -1,0 +1,12 @@
+
+*.pyc
+src/__pycache__/__init__.cpython-38.pyc
+src/__pycache__/u2.cpython-38.pyc
+src/__pycache__/u3.cpython-38.pyc
+src/__pycache__/u4.cpython-38.pyc
+src/__pycache__/u5.cpython-38.pyc
+test/__pycache__/__init__.cpython-38.pyc
+test/__pycache__/test_u2.cpython-38-pytest-6.1.2.pyc
+test/__pycache__/test_u3.cpython-38-pytest-6.1.2.pyc
+test/__pycache__/test_u4.cpython-38-pytest-6.1.2.pyc
+test/__pycache__/test_u5.cpython-38-pytest-6.1.2.pyc
